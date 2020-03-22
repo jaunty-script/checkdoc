@@ -1,0 +1,10 @@
+.*/
+coverage/
+node_modules/
+.*
+!.github/
+!.checkdoc.json
+!.eslintrc.json
+!.gitattributes
+!.gitignore
+!.npmignore

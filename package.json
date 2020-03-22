@@ -1,0 +1,65 @@
+{
+  "name": "@jaunty-script/checkdoc",
+  "description": "CLI tool to remind developers to update documentation.",
+  "main": "cli.js",
+  "bin": "cli.js",
+  "scripts": {
+    "checkdoc": "npx .",
+    "cs": "eslint .",
+    "test": "jest --ci --coverage"
+  },
+  "author": {
+    "name": "JauntyScript Organization",
+    "url": "https://github.com/jaunty-script"
+  },
+  "contributors": [
+    {
+      "name": "Contributors",
+      "url": "https://github.com/jaunty-script/checkdoc/graphs/contributors"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/jaunty-script/checkdoc/issues"
+  },
+  "homepage": "https://github.com/jaunty-script/checkdoc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaunty-script/checkdoc"
+  },
+  "jest": {
+    "automock": false,
+    "clearMocks": true,
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    },
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ],
+    "resetMocks": true
+  },
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.6.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "jest": "^25.1.0",
+    "typescript": "^3.8.3",
+    "utf-8-validate": "^5.0.2"
+  }
+}

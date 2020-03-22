@@ -1,0 +1,57 @@
+{
+  "documents": [
+    {
+      "file": "README.md",
+      "dependencies": [
+        "doc/Configuration.md"
+      ]
+    },
+    {
+      "file": "doc/CommandLine.md",
+      "dependencies": [
+        "cli.js"
+      ]
+    },
+    {
+      "file": "doc/Configuration.md",
+      "dependencies": [
+        "doc/Configuration/documents.md",
+        "doc/Configuration/from.md",
+        "doc/Configuration/reference.md",
+        "doc/Configuration/severity.md"
+      ]
+    },
+    {
+      "file": "doc/Configuration/documents.md",
+      "dependencies": [
+        "cli.js",
+        "src/ConfigHelper.js",
+        "src/FileChecker.js"
+      ]
+    },
+    {
+      "file": "doc/Configuration/from.md",
+      "dependencies": [
+        "cli.js",
+        "src/FileChecker.js",
+        "src/FileListFactory.js",
+        "src/FileSource/ArgumentsFileSource.js",
+        "src/FileSource/GitDiffFileSource.js"
+      ]
+    },
+    {
+      "file": "doc/Configuration/reference.md",
+      "dependencies": [
+        "cli.js",
+        "src/FileSource/GitDiffFileSource.js"
+      ]
+    },
+    {
+      "file": "doc/Configuration/severity.md",
+      "dependencies": [
+        "cli.js",
+        "src/FileChecker.js"
+      ]
+    }
+  ]
+}
