@@ -48,18 +48,18 @@
     "resetMocks": true
   },
   "dependencies": {
-    "shelljs": "^0.8.3",
-    "yargs": "^15.3.1"
+    "shelljs": "^0.8.4",
+    "yargs": "^15.4.1"
   },
   "devDependencies": {
-    "bufferutil": "^4.0.1",
+    "bufferutil": "^4.0.3",
     "canvas": "^2.6.1",
     "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jest": "^23.8.2",
-    "jest": "^25.1.0",
-    "typescript": "^3.8.3",
-    "utf-8-validate": "^5.0.2"
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^23.20.0",
+    "jest": "^26.6.3",
+    "typescript": "^3.9.7",
+    "utf-8-validate": "^5.0.4"
   }
 }
